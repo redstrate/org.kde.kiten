@@ -1,0 +1,11 @@
+--- a/lib/DictEdict/entryedict.h	2020-10-08 21:24:59.000000000 +0700
++++ b/lib/DictEdict/entryedict.h	2020-10-29 22:58:02.351069000 +0700
+@@ -48,8 +48,6 @@
+   extern QStringList Suffix;
+   extern QString     Particle;
+   
+-  extern QMultiHash<QString, QString> PartOfSpeechCategories;
+-
+   extern QSet<QString> PartsOfSpeech;
+   extern QSet<QString> MiscMarkings;
+   extern QSet<QString> FieldOfApplication;
