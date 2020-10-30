@@ -25,7 +25,15 @@
                 {
                     "type": "patch",
                     "path": "appdata.patch"
-                }                 
+                },                 
+                {
+                    "type": "patch",
+                    "path": "entrydict.cpp.patch"
+                },                 
+                {
+                    "type": "patch",
+                    "path": "entrydict.h.patch"
+                }                    
             ]
         }
     ]
