@@ -19,21 +19,13 @@
             "sources": [
                 { 
                     "type": "archive", 
-                    "url": "https://download.kde.org/stable/release-service/20.08.2/src/kiten-20.08.2.tar.xz",
-                    "sha256": "a7285d5880611da2202d0e3f8f2bf860f275932d3da54ff7aecc793225f7ad7d"
+                    "url": "https://download.kde.org/stable/release-service/20.08.3/src/kiten-20.08.3.tar.xz",
+                    "sha256": "8c62bd0382141b4742dd6dca8e0e3565c8a61fb98b225a8813da50f60cc23559"
                 },
                 {
                     "type": "patch",
                     "path": "appdata.patch"
-                },                 
-                {
-                    "type": "patch",
-                    "path": "entrydict.cpp.patch"
-                },                 
-                {
-                    "type": "patch",
-                    "path": "entrydict.h.patch"
-                }                    
+                }                 
             ]
         }
     ]
