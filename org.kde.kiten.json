@@ -19,8 +19,8 @@
             "sources": [
                 { 
                     "type": "archive", 
-                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/kiten-21.12.0.tar.xz",
-                    "sha256": "8429e8553f2c892ab70644291158e8863f5a42eceae7950909e78d1bbb80adb0"
+                    "url": "https://download.kde.org/stable/release-service/21.12.1/src/kiten-21.12.1.tar.xz",
+                    "sha256": "4c159e80be6c5672ff83eab9cca470acc1884b62c9a74414ab3de97b52263424"
                 }                 
             ]
         }
