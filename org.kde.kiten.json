@@ -20,7 +20,13 @@
                 { 
                     "type": "archive", 
                     "url": "https://download.kde.org/stable/release-service/21.12.3/src/kiten-21.12.3.tar.xz",
-                    "sha256": "9c3a9eeb009f2fd0c3950394b9a062bb108dfae20e97054211f5c0d93b56107c"
+                    "sha256": "9c3a9eeb009f2fd0c3950394b9a062bb108dfae20e97054211f5c0d93b56107c",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/kiten-$version.tar.xz"
+                    }
                 }                 
             ]
         }
