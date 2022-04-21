@@ -11,23 +11,22 @@
         "--socket=wayland",
         "--device=dri"
     ],
-
     "modules": [
         {
             "name": "kiten",
             "buildsystem": "cmake-ninja",
             "sources": [
-                { 
-                    "type": "archive", 
-                    "url": "https://download.kde.org/stable/release-service/21.12.3/src/kiten-21.12.3.tar.xz",
-                    "sha256": "9c3a9eeb009f2fd0c3950394b9a062bb108dfae20e97054211f5c0d93b56107c",
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/release-service/22.04.0/src/kiten-22.04.0.tar.xz",
+                    "sha256": "b51b975427bc12be2c2c1e6ed470172236ccd683b61927f4c1ff650119512958",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/kiten-$version.tar.xz"
                     }
-                }                 
+                }
             ]
         }
     ]
